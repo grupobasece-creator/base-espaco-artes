@@ -15,9 +15,11 @@ Passos:
 2. Montar um `planos/AAAA-MM-DD.json` (data da segunda-feira) e gerar as artes:
    `python3 scripts/gerar.py planos/AAAA-MM-DD.json` → salva em `artes/AAAA-MM-DD/`.
 3. Conferir as imagens (abrir e olhar), depois `git add -A && git commit && git push origin main`.
-4. Criar cada post no Metricool com **createScheduledPostForReview** (NUNCA publicar direto),
-   rede `instagram`, `instagramData.type` = `POST` (feed) ou `STORY`.
-   media = URL raw do GitHub. Stories sem texto (legenda vazia).
+4. Criar cada post no Metricool com **createScheduledPost** e `"draft": true` (RASCUNHO — NUNCA publicar
+   direto; o plano grátis não tem fluxo de aprovação, então o dono aprova abrindo o rascunho e agendando).
+   Rede `instagram`, `instagramData.type` = `POST` (feed) ou `STORY`.
+   media = URL raw do GitHub (esperar ~1 min após o push). Stories sem texto (legenda vazia).
+   Se o rascunho de story der erro, criar o story mesmo assim como rascunho com autoPublish false.
 5. Acrescentar ao `historico.md` uma linha por post (data, formato, tema, título).
 
 ## Mistura de conteúdo (variar toda semana)
