@@ -31,6 +31,10 @@ sobreposto, tudo em português → corrigir se preciso → `edit-design` commit 
 `export-design` jpg quality 90 (post: width 1080) → criar rascunho no Metricool na hora (URL expira).
 Pode usar `update_fill` para trocar o fundo do story por uma foto do espaço (upload-asset-from-url de fotos/)
 — só se o texto continuar legível.
+- Post com FOTO → modelo `DAHbgAMIXZY` ("Seu próximo evento começa aqui", aprovado 20/11): foto grande em cima
+  (elemento LB9P8r583f1bqj55 — trocar com `update_fill` por foto do espaço subida via upload-asset-from-url),
+  faixa escura com textos LB5JvgXqGkkphkk6 (branco), LB5B1my4Z44gcKQq (âmbar), LB8D4sbCwjd3pvqD (itens), logo nova e WhatsApp.
+  Pode ser usado na sexta no lugar do gerador.
 Logo nova no Canva: asset `MAHbgJW0Yq0` (branca). Fotos do espaço: subir de `fotos/` via raw GitHub.
 Variar os textos toda semana (ver historico.md). Mandar ao dono os links do Canva de cada arte.
 
