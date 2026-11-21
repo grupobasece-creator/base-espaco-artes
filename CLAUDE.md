@@ -11,7 +11,22 @@ Preparar a semana seguinte (segunda a domingo):
 - LIMITE: plano grátis do Metricool = 20 publicações/mês (feed + stories). Não passar disso; na última semana
   do mês, contar o que já foi publicado/agendado no mês e reduzir stories se precisar.
 
-Passos:
+## FLUXO PRINCIPAL: CANVA (preferido — o dono gostou das artes do Canva)
+Para cada post/story:
+1. Subir a(s) foto(s) do repositório no Canva com `upload-asset-from-url`
+   (URL raw do GitHub de `fotos/...`). Logo já no Canva: asset `MAHbgByp15E` (pode subir de novo de `marca/logo-base.png`).
+2. `create-design` com format "Instagram Post (Portrait)" (feed) ou "Instagram Story" (story),
+   references = [foto(s), logo], e um brief em português: Base Espaço de Eventos, foto em destaque,
+   SEM texto em cima da foto, texto curto fora da foto, logo BASE, cores âmbar #FFBF00 e azul-marinho #0E1220,
+   visual moderno e elegante, SEM confete. Incluir WhatsApp (85) 99156-0403 quando for chamada.
+   Esperar o job com `get-create-design-async-job` (respeitar wait_seconds).
+3. `export-design` em jpg (quality 90). A URL exportada pode ir DIRETO no `media` do Metricool
+   (o Metricool copia na hora; a URL expira em ~2h, então criar o post logo após exportar).
+4. Criar no Metricool como rascunho (`draft: true`).
+Se o Canva falhar, usar o gerador `scripts/gerar.py` (modelos foto_card/mosaico/foto) + GitHub como plano B.
+No resumo final, mandar ao dono os links de edição do Canva de cada arte.
+
+Passos (plano B / geral):
 1. Ver o que já está agendado no Metricool (getScheduledPosts, brandId `7827315`, timezone `America/Sao_Paulo`)
    e não repetir temas/dias já ocupados. Consultar `historico.md` para não repetir frases.
 2. Montar um `planos/AAAA-MM-DD.json` (data da segunda-feira) e gerar as artes:
