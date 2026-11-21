@@ -7,7 +7,9 @@ para o Metricool puxar.
 ## Tarefa semanal (rodar todo domingo à noite)
 Preparar a semana seguinte (segunda a domingo):
 - **3 posts no feed**: segunda 11:30, quarta 18:30, sexta 11:30.
-- **1 story por dia** (7), às 09:00.
+- **2 stories**: quarta e sábado, às 09:00.
+- LIMITE: plano grátis do Metricool = 20 publicações/mês (feed + stories). Não passar disso; na última semana
+  do mês, contar o que já foi publicado/agendado no mês e reduzir stories se precisar.
 
 Passos:
 1. Ver o que já está agendado no Metricool (getScheduledPosts, brandId `7827315`, timezone `America/Sao_Paulo`)
@@ -21,6 +23,13 @@ Passos:
    media = URL raw do GitHub (esperar ~1 min após o push). Stories sem texto (legenda vazia).
    Se o rascunho de story der erro, criar o story mesmo assim como rascunho com autoPublish false.
 5. Acrescentar ao `historico.md` uma linha por post (data, formato, tema, título).
+
+## Modelos de arte (scripts/gerar.py) — preferir os elaborados
+- `festa`: frase em card com confetes e círculos (bom dia, datas, dicas, sextou). Campos: titulo, subtitulo, selo, fundo (escuro|ambar), seed (mude a cada arte).
+- `foto_card`: foto em moldura arredondada com título EMBAIXO (nunca em cima da foto). Campos: foto, titulo, subtitulo.
+- `mosaico`: colagem de 3 fotos + título + botão do WhatsApp (chamada para reserva). Campos: fotos[3], titulo, selo.
+- `chamada`, `frase`, `foto`: modelos simples (usar pouco).
+- Alternar fundo escuro e âmbar e variar os modelos para a grade não ficar repetida.
 
 ## Mistura de conteúdo (variar toda semana)
 - Feed: 1 arte de frase/bom dia ou data comemorativa da semana; 1 de dica para festas, Espaço Kids ou decoração
