@@ -6,8 +6,8 @@ para o Metricool puxar.
 
 ## Tarefa semanal (rodar todo domingo à noite)
 Preparar a semana seguinte (segunda a domingo):
-- **3 posts no feed**: segunda 11:30, quarta 18:30, sexta 11:30.
-- **2 stories**: quarta e sábado, às 09:00.
+- **2 posts no feed**: terça 11:30 e sexta 11:30.
+- **3 stories**: segunda, quarta e sábado, às 09:00.
 - LIMITE: plano grátis do Metricool = 20 publicações/mês (feed + stories). Não passar disso; na última semana
   do mês, contar o que já foi publicado/agendado no mês e reduzir stories se precisar.
 
@@ -25,19 +25,19 @@ Passos:
 5. Acrescentar ao `historico.md` uma linha por post (data, formato, tema, título).
 
 ## Modelos de arte (scripts/gerar.py) — preferir os elaborados
-- `festa`: frase em card com confetes e círculos (bom dia, datas, dicas, sextou). Campos: titulo, subtitulo, selo, fundo (escuro|ambar), seed (mude a cada arte).
+- O DONO NÃO GOSTA das artes só com texto/confete (`festa`, `frase`): NÃO usar. Toda arte deve ter FOTO.
 - `foto_card`: foto em moldura arredondada com título EMBAIXO (nunca em cima da foto). Campos: foto, titulo, subtitulo.
 - `mosaico`: colagem de 3 fotos + título + botão do WhatsApp (chamada para reserva). Campos: fotos[3], titulo, selo.
-- `chamada`, `frase`, `foto`: modelos simples (usar pouco).
+- `foto`: foto tratada só com logo (bom para stories). `chamada`: só se faltar foto.
 - Alternar fundo escuro e âmbar e variar os modelos para a grade não ficar repetida.
 
 ## Mistura de conteúdo (variar toda semana)
-- Feed: 1 arte de frase/bom dia ou data comemorativa da semana; 1 de dica para festas, Espaço Kids ou decoração
-  (pode ser `tipo: foto` com foto de `fotos/`, sem texto por cima); 1 chamada para reserva.
+- Feed: 1 `foto_card` (espaço, Espaço Kids, decoração ou data comemorativa) e 1 `mosaico` (chamada para reserva).
+  Bom dia / datas comemorativas também vão em `foto_card`, com uma foto do espaço.
 - Stories: bom dia, "sextou", contagem para o fim de semana, pergunta/enquete em texto, foto do espaço,
   chamada para WhatsApp, lembrete de fim de ano em novembro/dezembro.
 - Datas comemorativas brasileiras da semana (Dia das Crianças, Natal, Réveillon, Dia dos Pais etc.) têm prioridade.
-- O dono **não gosta de texto em cima de fotos**: com foto, use `tipo: foto` (só logo); texto vai em artes `frase`/`chamada`.
+- O dono **não gosta de texto em cima de fotos**: texto sempre fora da foto (foto_card/mosaico) ou só logo (foto).
 
 ## Fatos do espaço (só usar estes)
 - Base Espaço de Eventos, Av. Pasteur, 271 – Cristo Redentor, Fortaleza-CE. Antigo Soul Pop Lounge; agora é do Grupo Base.
