@@ -11,20 +11,24 @@ Preparar a semana seguinte (segunda a domingo):
 - LIMITE: plano grátis do Metricool = 20 publicações/mês (feed + stories). Não passar disso; na última semana
   do mês, contar o que já foi publicado/agendado no mês e reduzir stories se precisar.
 
-## FLUXO PRINCIPAL: CANVA (preferido — o dono gostou das artes do Canva)
-Para cada post/story:
-1. Subir a(s) foto(s) do repositório no Canva com `upload-asset-from-url`
-   (URL raw do GitHub de `fotos/...`). Logo já no Canva: asset `MAHbgByp15E` (pode subir de novo de `marca/logo-base.png`).
-2. `create-design` com format "Instagram Post (Portrait)" (feed) ou "Instagram Story" (story),
-   references = [foto(s), logo], e um brief em português: Base Espaço de Eventos, foto em destaque,
-   SEM texto em cima da foto, texto curto fora da foto, logo BASE, cores âmbar #FFBF00 e azul-marinho #0E1220,
-   visual moderno e elegante, SEM confete. Incluir WhatsApp (85) 99156-0403 quando for chamada.
-   Esperar o job com `get-create-design-async-job` (respeitar wait_seconds).
-3. `export-design` em jpg (quality 90). A URL exportada pode ir DIRETO no `media` do Metricool
-   (o Metricool copia na hora; a URL expira em ~2h, então criar o post logo após exportar).
-4. Criar no Metricool como rascunho (`draft: true`).
-Se o Canva falhar, usar o gerador `scripts/gerar.py` (modelos foto_card/mosaico/foto) + GitHub como plano B.
-No resumo final, mandar ao dono os links de edição do Canva de cada arte.
+## FLUXO PRINCIPAL: EDITAR OS MODELOS DO DONO NO CANVA (aprovado em 20/11)
+NUNCA usar `create-design` (a IA do Canva gerou letras sobrepostas e texto em inglês — o dono odiou).
+Sempre COPIAR um modelo aprovado e EDITAR elemento por elemento:
+- Story → modelo `DAHbgDzuiAk` ("Story Base - Domingo de sol"): fundo de piscina, moldura branca,
+  3 linhas de texto grande (ids LBcS5fYkdzcg0b6G, LBM715FRrrgDDmZr, LB9BpkdnlPyq928T), coração, logo e WhatsApp.
+  Trocar só as 3 linhas (até ~10 letras cada) — ex.: "Sextou &" / "Festa &" / "Piscina"; "Reserve" / "sua" / "data".
+- Post → modelo `DAHbgLp4zng` ("Post Base - Festa na Piscina"): ilustrado pool party. Textos editáveis:
+  LBrwW8wmDjjrzQSS (linha pequena de cima), LBXl29X0zjb1jVDw (título grande, 1 palavra curta),
+  LBLQwcLBjBsqMZk3 (subtítulo manuscrito), LBNkgFkc83941LhV, LB966gr685JPdppZ, LBCDnsKfgf6ZL82D, LBmQ4cVPQkFV7SCh
+  (4 linhas do meio, curtas), LBdFQmknsxq5lNH4 (endereço + WhatsApp — manter). Logo em faixa escura — manter.
+Passos: `copy-design` → `read-design` com open_transaction (ver locator_ids e thumbnail) → `edit-design` keep_open
+com replace_text (e format_text para diminuir fonte se o texto for maior) → OLHAR a thumbnail devolvida: nada
+sobreposto, tudo em português → corrigir se preciso → `edit-design` commit → `update_title` com data/tema →
+`export-design` jpg quality 90 (post: width 1080) → criar rascunho no Metricool na hora (URL expira).
+Pode usar `update_fill` para trocar o fundo do story por uma foto do espaço (upload-asset-from-url de fotos/)
+— só se o texto continuar legível.
+Logo nova no Canva: asset `MAHbgJW0Yq0` (branca). Fotos do espaço: subir de `fotos/` via raw GitHub.
+Variar os textos toda semana (ver historico.md). Mandar ao dono os links do Canva de cada arte.
 
 Passos (plano B / geral):
 1. Ver o que já está agendado no Metricool (getScheduledPosts, brandId `7827315`, timezone `America/Sao_Paulo`)
