@@ -6,8 +6,12 @@ para o Metricool puxar.
 
 ## Tarefa semanal (rodar todo domingo à noite)
 Preparar a semana seguinte (segunda a domingo):
-- **2 posts no feed**: terça 11:30 e sexta 11:30.
-- **3 stories**: segunda, quarta e sábado, às 09:00.
+- **2 posts no feed**: terça 11:30 = modelo Canva (Pool Party); sexta 11:30 = FOTO DO ESPAÇO
+  (gerador `scripts/gerar.py`, alternando `foto_card` e `mosaico` — o dono achou essas "lindas").
+- **3 stories**: segunda e sábado = modelo Canva (Domingo de sol); quarta 09:00 = FOTO DO ESPAÇO
+  (`scripts/gerar.py` tipo `foto`, formato story: foto tratada só com a logo).
+- Fotos com o gerador: usar a logo nova `marca/logo-base-espaco-branco.png`; gerar, conferir, push no GitHub e
+  usar a URL raw no Metricool. Variar a foto toda semana (ver historico.md).
 - LIMITE: plano grátis do Metricool = 20 publicações/mês (feed + stories). Não passar disso; na última semana
   do mês, contar o que já foi publicado/agendado no mês e reduzir stories se precisar.
 

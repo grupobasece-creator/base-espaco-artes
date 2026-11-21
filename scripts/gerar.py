@@ -20,7 +20,7 @@ def fonte(peso, tam):
     return ImageFont.truetype(os.path.join(BASE, "fonts", f"Poppins-{peso}.ttf"), tam)
 
 def logo(larg):
-    l = Image.open(os.path.join(BASE, "marca", "logo-base.png")).convert("RGBA")
+    l = Image.open(os.path.join(BASE, "marca", "logo-base-espaco-branco.png")).convert("RGBA")
     l.thumbnail((larg, larg)); return l
 
 def quebrar(d, texto, f, larg_max):
