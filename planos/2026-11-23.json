@@ -1,0 +1,20 @@
+[
+ {
+  "arquivo": "artes/2026-11-23/story-qua-foto.jpg",
+  "formato": "story",
+  "tipo": "foto",
+  "foto": "fotos/espaco-area-externa.jpg"
+ },
+ {
+  "arquivo": "artes/2026-11-23/feed-sex-mosaico.jpg",
+  "formato": "feed",
+  "tipo": "mosaico",
+  "fotos": [
+   "fotos/espaco-piscina.jpg",
+   "fotos/kids-cama-elastica.jpg",
+   "fotos/kids-playground.jpg"
+  ],
+  "titulo": "Sua confraternização de fim de ano aqui",
+  "selo": "Fim de ano"
+ }
+]
