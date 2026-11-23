@@ -21,7 +21,7 @@ Sempre COPIAR um modelo aprovado e EDITAR elemento por elemento:
 - Story → modelo `DAHbgDzuiAk` ("Story Base - Domingo de sol"): fundo de piscina, moldura branca,
   3 linhas de texto grande (ids LBcS5fYkdzcg0b6G, LBM715FRrrgDDmZr, LB9BpkdnlPyq928T), coração, logo e WhatsApp.
   Trocar só as 3 linhas (até ~10 letras cada) — ex.: "Sextou &" / "Festa &" / "Piscina"; "Reserve" / "sua" / "data".
-- Post → modelo `DAHbgLp4zng` ("Post Base - Festa na Piscina"): ilustrado pool party. Textos editáveis:
+- Post → modelo `DAHbvH0Udi4` ("Post Base - Festa na Piscina", JÁ em 1080x1350 — NÃO usar o antigo DAHbgLp4zng, que tem proporção inválida para o Instagram; NÃO usar resize-design, é recurso pago): ilustrado pool party. Textos editáveis:
   LBrwW8wmDjjrzQSS (linha pequena de cima), LBXl29X0zjb1jVDw (título grande, 1 palavra curta),
   LBLQwcLBjBsqMZk3 (subtítulo manuscrito), LBNkgFkc83941LhV, LB966gr685JPdppZ, LBCDnsKfgf6ZL82D, LBmQ4cVPQkFV7SCh
   (4 linhas do meio, curtas), LBdFQmknsxq5lNH4 (endereço + WhatsApp — manter). Logo em faixa escura — manter.
