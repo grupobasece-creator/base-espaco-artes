@@ -83,6 +83,15 @@ Passos (plano B / geral):
 - Português do Brasil, tom alegre e próximo, legendas curtas (até ~5 linhas + hashtags).
 
 ## Fotos
+Fotos novas (25/11) — nomes descritivos, usar bastante:
+- Piscina: piscina.jpg, piscina-lat.jpg, piscina-com-caramanchao.jpg, piscina-vista-de-cima.jpg (noite, luzes),
+  arandela.jpg (noite), baloes-na-piscina.jpg, visao-geral-da-piscina-e-deck.jpg
+- Estrutura: deck-com-mesas-e-cadeiras.jpg, encerramento-de-expediente.jpg (noite), rede-e-tenda.jpg (kids)
+- DECORAÇÕES já feitas no espaço (ótimas p/ divulgar decoração temática, valor sob consulta):
+  dec-pool-party.jpg, dec-fundo-do-mar-rosa.jpg, dec-sonic.jpg, dec-ursinho-pooh.jpg, dec-azul-royal.jpg
+`videos/` (mp4 curtos): boome-cascata-cent, boome-da-cascata-lat, enchendo-a-piscina, manuntencao-da-piscina,
+  man-de-mesas-e-cadeiras, para-storys, varanda-em-cima — podem ir como STORY com vídeo no Metricool
+  (media = URL raw do mp4), no lugar de 1 story da semana, de vez em quando.
 `fotos/` tem as fotos do espaço, kids e toalhas. Novas fotos podem ser adicionadas aí.
 Logo: `marca/logo-base.png`. Cores: âmbar #FFBF00 e escuro #0E1220. Fonte Poppins (`fonts/`).
 
