@@ -5,7 +5,7 @@
 - 2026-11-26 · feed · Seu próximo evento começa aqui (foto piscina, logo nova) · rascunho
 - 2026-11-23 · story 09:00 · Canva Domingo de sol: "Fim de ano / chegando! / Reserve já" (DAHbrtb8ZM8) · rascunho
 - 2026-11-25 · story 09:00 · foto área externa (gerador foto, logo nova) · rascunho
-- 2026-11-27 · feed 11:30 · mosaico piscina + cama elástica + playground, "Sua confraternização de fim de ano aqui", selo Fim de ano · rascunho
+- 2026-11-27 · feed 11:30 · mosaico balões na piscina + dec Pool Party + dec Fundo do Mar, "Decoração temática para a sua festa", selo Decoração (trocado em 25/11 com fotos novas) · rascunho
 - 2026-11-28 · story 09:00 · Canva Domingo de sol: "Sábado & / Festa & / Piscina" (DAHbrggMHzE) · rascunho
 - (terça 24/11 Pool Party e quinta 26/11 foto piscina já estavam em rascunho desde a configuração — não duplicados)
 - Contagem nov/2026: 6 publicados + 7 rascunhos (22, 23, 24, 25, 26, 27, 28) = 13 de 20
